@@ -63,6 +63,10 @@ PRODUCT_COPY_FILES += \
     device/samsung/jf-common/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \
     device/samsung/jf-common/keylayout/ue_rf4ce_remote.kl:system/usr/keylayout/ue_rf4ce_remote.kl
 
+# Fix over clocking
+PRODUCT_COPY_FILES += \
+        device/samsung/jf-common/rootdir/etc/03dementedcpuclock:system/etc/init.d/03dementedcpuclock
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -169,6 +173,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.rild.nitz_short_ons_2="" \
     persist.rild.nitz_short_ons_3="" \
     ro.telephony.ril.v3=newDriverCall
+
+# Droid Concepts bootanimation...Credit JaeKar
+PRODUCT_COPY_FILES +=  \
+    vendor/Droid_Concepts/prebuilt/common/media/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # call common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
