@@ -24,7 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/jf-common/overlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -62,10 +62,6 @@ PRODUCT_COPY_FILES += \
     device/samsung/jf-common/keylayout/samsung_remote_ir.kl:system/usr/keylayout/samsung_remote_ir.kl \
     device/samsung/jf-common/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \
     device/samsung/jf-common/keylayout/ue_rf4ce_remote.kl:system/usr/keylayout/ue_rf4ce_remote.kl
-
-# Fix over clocking
-PRODUCT_COPY_FILES += \
-        device/samsung/jf-common/rootdir/etc/03dementedcpuclock:system/etc/init.d/03dementedcpuclock
 
 # Ramdisk
 PRODUCT_PACKAGES += \
