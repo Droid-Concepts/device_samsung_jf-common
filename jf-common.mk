@@ -172,6 +172,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES +=  \
     vendor/Droid_Concepts/prebuilt/common/media/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
 
+# DC OC init.d 
+PRODUCT_COPY_FILES += \
+    device/samsung/jf-common/rootdir/etc/init.d/03dc_cpuclock:system/etc/init.d/03dc_cpuclock
+
 # call common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
 

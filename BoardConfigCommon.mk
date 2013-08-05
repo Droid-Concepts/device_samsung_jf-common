@@ -31,11 +31,11 @@ BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom user_debug=31 zcache
 BOARD_KERNEL_BASE           := 0x80200000
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 BOARD_KERNEL_PAGESIZE       := 2048
-TARGET_KERNEL_VARIANT_CONFIG := DEMENTEDConcepts_jf_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := dc-elite_jf_defconfig
 ifeq ($(HAVE_SELINUX),true)
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 endif
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.7
 
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
