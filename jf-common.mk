@@ -97,10 +97,6 @@ PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml \
     device/samsung/jf-common/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
 
-# Set default USB interface
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp
-
 # Lights
 PRODUCT_PACKAGES += lights.msm8960
 
