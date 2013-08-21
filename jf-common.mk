@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
 
 # DEMENTED bootanimation...Credit JaeKar
 PRODUCT_COPY_FILES +=  \
-    vendor/DEMENTED/prebuilt/common/media/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/droid_concepts/prebuilt/common/media/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
