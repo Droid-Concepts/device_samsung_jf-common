@@ -54,8 +54,8 @@ PRODUCT_PACKAGES += \
 #    GPS_CONF := device/samsung/jf-common/gps/gps.conf
 #endif
 
-PRODUCT_COPY_FILES += \
-    $(GPS_CONF):/system/etc/gps.conf
+#PRODUCT_COPY_FILES += \
+#    $(GPS_CONF):/system/etc/gps.conf
 
 # Kernel overclocking script, required for Project Elite Jf kernel inline build
 PRODUCT_COPY_FILES += \
