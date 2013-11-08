@@ -83,3 +83,7 @@ BOARD_USES_SEPERATED_VOIP := true
 # Use seperate devices for 3-pole headset
 BOARD_USES_SEPERATED_HEADSET_MIC := true
 
+# Don't build qcom camera HAL         72
+USE_DEVICE_SPECIFIC_CAMERA := true
+
+
