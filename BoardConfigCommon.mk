@@ -94,9 +94,6 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 #Sensors
 SENSORS_NEED_SETRATE_ON_ENABLE := true
 
-# Sensors
-SENSORS_NEED_SETRATE_ON_ENABLE := true
-
 # SELinux
 BOARD_SEPOLICY_DIRS += \
         device/samsung/jf-common/sepolicy
