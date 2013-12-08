@@ -92,11 +92,11 @@ BOARD_USES_SEPERATED_VOIP := true
 # Use seperate devices for 3-pole headset
 BOARD_USES_SEPERATED_HEADSET_MIC := true
 
-# Use device specific camera
-USE_DEVICE_SPECIFIC_CAMERA := true
-
 #Sensors
 SENSORS_NEED_SETRATE_ON_ENABLE := true
+
+# Time services
+BOARD_USES_QC_TIME_SERVICES := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
