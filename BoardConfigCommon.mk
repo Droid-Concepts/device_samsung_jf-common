@@ -95,9 +95,6 @@ BOARD_USES_SEPERATED_HEADSET_MIC := true
 #Sensors
 SENSORS_NEED_SETRATE_ON_ENABLE := true
 
-# Time services
-BOARD_USES_QC_TIME_SERVICES := true
-
 # SELinux
 BOARD_SEPOLICY_DIRS += \
         device/samsung/jf-common/sepolicy
