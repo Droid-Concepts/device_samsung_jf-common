@@ -107,3 +107,10 @@ BOARD_SEPOLICY_UNION := \
        device.te \
        app.te \
        file_contexts
+
+# Camera
+TARGET_NEED_CAMERA_ZSL := true
+TARGET_NEED_SAMSUNG_MAGIC_ZSL_1508 := true
+TARGET_ADD_ISO_MODE_1600 := true
+TARGET_ADD_ISO_MODE_HJR := true
+
