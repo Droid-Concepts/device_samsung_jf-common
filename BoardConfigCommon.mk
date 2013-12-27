@@ -37,6 +37,10 @@ TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.7
 
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
+# WiFi module
+WIFI_DRIVER_MODULE_PATH := "/system/lib/modules/dhd.ko"
+WIFI_DRIVER_MODULE_NAME := "dhd"
+
 # Adreno configuration
 BOARD_EGL_CFG := device/samsung/jf-common/configs/egl.cfg
 
